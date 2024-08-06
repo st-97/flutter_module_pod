@@ -4,7 +4,8 @@ Pod::Spec.new do |s|
   s.summary          = 'A Flutter module for my iOS app'
   s.description      = <<-DESC
                        Hi this is my new flutter module
-  s.homepage         = 'https://google.com'
+                       DESC
+  s.homepage         = 'https://example.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
   s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git', :tag => s.version.to_s }
