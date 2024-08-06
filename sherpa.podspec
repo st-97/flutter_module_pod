@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://google.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
-  s.source           = { :git => 'https://github.com/your_github_username/my_flutter_module.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git', :tag => s.version.to_s }
 
   s.source_files = 'lib/**/*'
   s.dependency 'Flutter'
