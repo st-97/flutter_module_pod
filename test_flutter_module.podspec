@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
   s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git',:tag => '2.0.0'}
 
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '13.0'
   s.source_files = '.ios/Runner/**/*.{swift,h,m}'
   s.dependency 'Flutter'
 end
