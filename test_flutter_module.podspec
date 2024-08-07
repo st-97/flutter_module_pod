@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'test_flutter_module'
-  s.version          = '1.0.1'
+  s.version          = '2.0.0'
   s.summary          = 'A Flutter module for my iOS app'
   s.description      = <<-DESC
                        Hi this is my new flutter module
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage    = 'https://github.com/st-97/flutter_module_pod'
   s.license     = { :type => 'MIT' }
   s.author           = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
-  s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git',:tag => 'v1.0.1'}
+  s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git',:tag => 'v2.0.0'}
 
   s.platform     = :ios, '10.0'
   s.source_files = 'Classes/**/*.{swift,h,m}'
