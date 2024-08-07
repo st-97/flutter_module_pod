@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                        Hi this is my new flutter module
                        DESC
   s.homepage    = 'https://github.com/st-97/flutter_module_pod'
-  s.license     = { :type => 'MIT' }
+  s.license     = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
   s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git',:tag => '2.0.0'}
 
