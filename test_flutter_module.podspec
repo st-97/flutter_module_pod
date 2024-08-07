@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'my_flutter_module'
+  s.name             = 'test_flutter_module'
   s.version          = '1.0.0'
   s.summary          = 'A Flutter module for my iOS app'
   s.description      = <<-DESC
