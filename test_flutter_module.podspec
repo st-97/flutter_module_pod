@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git',:tag => '2.0.0'}
 
   s.platform     = :ios, '10.0'
-  s.source_files = 'Classes/**/*.{swift,h,m}'
+  s.source_files = '.ios/Runner/**/*.{swift,h,m}'
   s.dependency 'Flutter'
 end
