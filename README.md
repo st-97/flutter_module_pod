@@ -1,4 +1,4 @@
-# sherpa
+# test_flutter_module
 
 A new Flutter module project.
 

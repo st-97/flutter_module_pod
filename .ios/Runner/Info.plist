@@ -11,9 +11,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>sherpa</string>
+	<string>test_flutter_module</string>
 	<key>CFBundleDisplayName</key>
-	<string>Sherpa</string>
+	<string>Test Flutter Module</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
