@@ -14,11 +14,13 @@ Pod::Spec.new do |s|
   s.dependency 'Flutter'
   
   s.platform     = :ios, '9.0'
-  s.vendored_frameworks = 'ios/Flutter/App.framework'
-  s.vendored_frameworks = 'ios/Flutter/Flutter.framework'
+  s.vendored_frameworks = [
+    '.ios/Flutter/App.framework',
+    '.ios/Flutter/Flutter.framework'
+  ]
   
   s.xcconfig = {
     'ENABLE_BITCODE' => 'NO',
-    'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/my_flutter_module/ios/Flutter'
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/my_flutter_module/.ios/Flutter'
   }
 end
