@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        Hi this is my new flutter module
                        DESC
-  s.homepage    = 'https://github.com/your-username/your-module'
+  s.homepage    = 'https://github.com/st-97/flutter_module_pod'
   s.license     = { :type => 'MIT' }
   s.author           = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
-  s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git'}
+  s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git',:tag => 'v1.0.0'}
 
   s.platform     = :ios, '10.0'
   s.source_files = 'Classes/**/*.{swift,h,m}'
