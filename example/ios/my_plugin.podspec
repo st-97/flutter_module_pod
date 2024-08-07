@@ -12,7 +12,7 @@ A new Flutter plugin project.
   s.homepage         = 'http://example.com'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
-  s.source       = { :git => 'https://github.com/st-97/flutter_module_pod.git'}
+  s.source       = { :git => 'https://github.com/st-97/flutter_module_pod.git', :tag => '0.0.1'} 
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
