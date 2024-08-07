@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '13.0'
   s.source_files = '.ios/Runner/**/*.{swift,h,m}'
   s.dependency 'Flutter'
+ 
 end
