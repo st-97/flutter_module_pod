@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'my_plugin'
+  s.name             = 'flutter_module_pod'
   s.version          = '3.0.0'
   s.summary          = 'A Flutter plugin that integrates a native iOS view.'
   s.description      = <<-DESC
