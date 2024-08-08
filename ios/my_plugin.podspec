@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Shaikh Taha' => 'shaikhtaha97@gmail.com' }
   s.source           = { :git => 'https://github.com/st-97/flutter_module_pod.git',:tag => '3.0.0'}
+  s.exclude_files    = 'example/ios/Classes/**/*.{swift,h,m}'
   s.source_files = 'ios/Classes/**/*.{swift,h,m}'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
