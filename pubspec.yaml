@@ -1,6 +1,6 @@
-name: my_plugin
+name: flutter_plugin
 description: "A new Flutter plugin project."
-version: 0.0.1+1
+version: 0.0.1
 homepage:
 
 environment:
@@ -35,10 +35,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.my_plugin
-        pluginClass: MyPlugin
+        package: com.example.flutter_plugin
+        pluginClass: FlutterPlugin
       ios:
-        pluginClass: MyPlugin
+        pluginClass: FlutterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

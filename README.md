@@ -1,4 +1,4 @@
-# my_plugin
+# flutter_plugin
 
 A new Flutter plugin project.
 
