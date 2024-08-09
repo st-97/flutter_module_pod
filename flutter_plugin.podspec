@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|
   s.name             = 'flutter_plugin'
   s.version          = '5.0.0'
@@ -11,15 +12,13 @@ Pod::Spec.new do |s|
   s.homepage        = 'https://example.com'
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
   s.author          = { 'Your Name' => 'your_email@example.com' }
-  s.platform        = :ios, '10.0'
+  s.platform        = :ios, '14.0'
   s.source          = { :git => 'https://github.com/st-97/flutter_module_pod.git', :tag => s.version.to_s }
- 
-   s.ios.deployment_target = '10.0'
-s.vendored_frameworks = ['App.xcframework', 'Flutter.xcframework']
-
-  # If you have additional dependencies for your plugin, add them here
-  # s.dependency 'SomeOtherPod'
-
-  # If you have a static framework or binary, specify it here
-  # s.vendored_frameworks = 'Frameworks/MyFramework.framework'
+  s.requires_arc     = true
+  
+  # Include both xcframeworks
+  s.vendored_frameworks = ['Frameworks/app.xcframework', 'Frameworks/Flutter.xcframework']
+  
+  s.swift_versions   = ['5.0']
+  s.requires_arc     = true
 end
